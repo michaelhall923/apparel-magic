@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;
+}
+
+#products-table th,
+#products-table td {
+  padding: 4px;
+}
+
+#products-table tbody tr {
+  cursor: pointer;
+}
+
+#products-table tbody tr td {
+  border: 1px solid black;
+}
+
+#products-table tbody tr:hover {
+  background-color: lightblue;
+}

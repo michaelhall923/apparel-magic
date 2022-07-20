@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+}
+
+#product-details {
+  margin: 1rem 0;
+}
+
+#product-variant-details {
+  margin: 1rem 0;
+}
+
+#product-variant-details thead th {
+  border-bottom: 1px solid gray;
+}
+
+#product-variant-details tbody th {
+  border-left: 1px solid gray;
+}
+
+.product-variant-details-row td {
+  width: 40px;
+}
+
+.product-variant-details-row td,
+.product-variant-details-row th {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.variant-checkbox-container {
+  text-align: center;
+  vertical-align: middle;
+}
